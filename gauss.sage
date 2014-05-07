@@ -11,4 +11,6 @@ class GaussianRational:
         return GaussianRational(self.x-right.x, self.y-right.y)
     def __crazy__(self, crazy):
         return 'I'm crazy'
-
+    def __init__(self, number):
+        self.number = number
+  
